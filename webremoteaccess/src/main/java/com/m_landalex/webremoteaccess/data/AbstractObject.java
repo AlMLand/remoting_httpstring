@@ -7,8 +7,8 @@ import lombok.Setter;
 @Setter
 public abstract class AbstractObject {
 
-	private Long id;
-	private int version;
+	protected Long id;
+	protected int version;
 
 	@Override
 	public String toString() {

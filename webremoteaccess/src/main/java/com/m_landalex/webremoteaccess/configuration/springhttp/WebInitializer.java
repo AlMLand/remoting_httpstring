@@ -1,11 +1,9 @@
-package com.m_landalex.webremoteaccess.web;
+package com.m_landalex.webremoteaccess.configuration.springhttp;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import com.m_landalex.webremoteaccess.configuration.H2Connection;
-import com.m_landalex.webremoteaccess.configuration.HttpInvokerConfiguration;
 import com.m_landalex.webremoteaccess.configuration.TransactionManagerBean;
-import com.m_landalex.webremoteaccess.configuration.WebConfiguration;
 
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 

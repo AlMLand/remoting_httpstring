@@ -1,4 +1,4 @@
-package com.m_landalex.webremoteaccess.configuration;
+package com.m_landalex.webremoteaccess.configuration.springhttp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

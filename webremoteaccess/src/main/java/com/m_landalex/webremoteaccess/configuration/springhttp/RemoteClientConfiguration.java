@@ -1,4 +1,4 @@
-package com.m_landalex.webremoteaccess.configuration;
+package com.m_landalex.webremoteaccess.configuration.springhttp;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

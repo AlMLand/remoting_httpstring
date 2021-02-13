@@ -2,6 +2,7 @@ package com.m_landalex.webremoteaccess.web;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import com.m_landalex.webremoteaccess.configuration.H2Connection;
 import com.m_landalex.webremoteaccess.configuration.HttpInvokerConfiguration;
 import com.m_landalex.webremoteaccess.configuration.TransactionManagerBean;
 import com.m_landalex.webremoteaccess.configuration.WebConfiguration;
@@ -11,7 +12,7 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		return new Class<?>[] {
-			TransactionManagerBean.class
+			H2Connection.class, TransactionManagerBean.class
 		};
 	}
 
